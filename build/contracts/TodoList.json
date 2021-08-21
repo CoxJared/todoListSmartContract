@@ -17,11 +17,11 @@
       "signature": "0xb6cb58a5"
     }
   ],
-  "bytecode": "0x608060405260008055348015601357600080fd5b50609e806100226000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a7230582035964b72b8e265d43556fbebc27d02f29b8ac48eb6abbc9300cce144fa5edf060029",
-  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a7230582035964b72b8e265d43556fbebc27d02f29b8ac48eb6abbc9300cce144fa5edf060029",
-  "sourceMap": "25:88:1:-;;;71:1;47:25;;25:88;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:88:1;;;;;;;",
-  "deployedSourceMap": "25:88:1:-;;;;;;;;;;;;;;;;;;;;;;;;47:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;47:25:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract TodoList {\n  uint public taskCount = 0; //State of variable on the blockchain\n}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b50609e806100226000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820b2903b95d06ad88f4a0278dc1ae627ae0f00bdffb64efed747d87649697b7a490029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820b2903b95d06ad88f4a0278dc1ae627ae0f00bdffb64efed747d87649697b7a490029",
+  "sourceMap": "25:50:1:-;;;71:1;47:25;;25:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:50:1;;;;;;;",
+  "deployedSourceMap": "25:50:1:-;;;;;;;;;;;;;;;;;;;;;;;;47:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;47:25:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract TodoList {\n  uint public taskCount = 0;\n}",
   "sourcePath": "/Users/jaredcox/Ethereum/eth-todo-list/contracts/TodoList.sol",
   "ast": {
     "absolutePath": "/Users/jaredcox/Ethereum/eth-todo-list/contracts/TodoList.sol",
@@ -102,10 +102,10 @@
           }
         ],
         "scope": 39,
-        "src": "25:88:1"
+        "src": "25:50:1"
       }
     ],
-    "src": "0:113:1"
+    "src": "0:75:1"
   },
   "legacyAST": {
     "absolutePath": "/Users/jaredcox/Ethereum/eth-todo-list/contracts/TodoList.sol",
@@ -186,10 +186,10 @@
           }
         ],
         "scope": 39,
-        "src": "25:88:1"
+        "src": "25:50:1"
       }
     ],
-    "src": "0:113:1"
+    "src": "0:75:1"
   },
   "compiler": {
     "name": "solc",
@@ -199,12 +199,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x711fF96C32D772F910129D05E701Cea511FDc4a2",
-      "transactionHash": "0x8ac8a73c890d69c544b87b7d55a40ff679bdd2a44958692db9e90bffe116509b"
+      "address": "0xb152a1E1E33B41c6e554a7B526C1Fd4b1FB38677",
+      "transactionHash": "0xff0338cfc8331a8e923786063a3e63affee77cd05bfd8f20d93e4e29ba5634fa"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2021-06-19T02:10:04.716Z",
+  "updatedAt": "2021-08-21T17:56:31.370Z",
   "devdoc": {
     "methods": {}
   },
